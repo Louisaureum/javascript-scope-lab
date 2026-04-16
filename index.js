@@ -1,6 +1,7 @@
 // Write your solution in this file!
+// Declare the featuredDrink variable with the correct name
 const burgers = ['Hamburger', 'Cheeseburger'];
-let featuredDrinks = 'Strawberry Milkshake';
+let featuredDrink = 'Strawberry Milkshake';
 
 function addBurger(){
     const newBurger = 'Flatburger';
@@ -11,6 +12,7 @@ function addBurger(){
         burgers.push(anotherNewBurger);
     }
 }
+// Change the existing featuredDrink variable when called
 function changeFeaturedDrink(){
     featuredDrink = 'The JavaShake';
 }
